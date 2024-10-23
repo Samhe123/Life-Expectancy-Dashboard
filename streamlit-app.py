@@ -1,5 +1,6 @@
 import streamlit as st
 import plotly.express as px
+import plotly.express as px
 from streamlit_option_menu import option_menu
 from Case2 import scatterplot_machinelearning, customizable_scatter_plot, world_map, boxplot, correlation_matrix, missing_values, plot_life_expectancy_histogram, plot_life_expectancy_histogram, plot_status_violin
 
