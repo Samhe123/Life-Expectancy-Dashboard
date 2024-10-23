@@ -15,6 +15,11 @@ import plotly.express as px
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
+import os
+
+# Set Kaggle API credentials
+os.environ['KAGGLE_USERNAME'] = "samhendriks"
+os.environ['KAGGLE_KEY'] = "744f6ba8e5036ce5b874b69ddf515def"
 
 # Initialize the Kaggle API client
 api = KaggleApi()
